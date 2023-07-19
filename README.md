@@ -6,3 +6,4 @@ En esta práctica tuvimos que diseñar una web sacando el máximo partido a las 
 [![Captura-de-Pantalla-2023-07-19-a-las-19-51-28.png](https://i.postimg.cc/ZRYjwncW/Captura-de-Pantalla-2023-07-19-a-las-19-51-28.png)](https://postimg.cc/SX5WsyH4)
 
 [![Captura-de-Pantalla-2023-07-19-a-las-19-51-52.png](https://i.postimg.cc/hvfsqYNg/Captura-de-Pantalla-2023-07-19-a-las-19-51-52.png)](https://postimg.cc/kRPKQTnh)
+

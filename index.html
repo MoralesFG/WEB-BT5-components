@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<!-- para que estire nuestro documento hasta el final de la ventana y el pie quede abajo -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--BT5-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="d-flex flex-column h-100"> <!-- para que el pie quede abajo pegado -->
+    <!----------------------------------------- HEADER ------------------------------------------->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">The restless type</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Créditos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <!--SLIDER-->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        <!-------------------------------------------- MAIN --------------------------------------------------->
+        <div class="flex-shrink-0"> <!-- para que el pie se quede fijo abajo -->
+            <main class="container-fluid container-xl">
+                <h1 class="my-3">
+                    Catch Me If You Can
+                    <small class="text-muted">Kuntzel+Deygas</small>
+                </h1>
+                <div class="linea"></div>
+
+                <section class="row g-0 mb-4">
+                    <figure class="col-3 col-sm-4 col-md-3 col-lg-2">
+                        <img src="img/kuntzel.jpg">
+                    </figure>
+                    <div
+                        class="col-9 col-sm-8 col-md-6 col-lg-3 bg-azul-100 d-flex flex-wrap align-items-center align-content-center ps-md-5 ps-lg-0 ps-xl-5">
+                        <div class="col-5 col-md-12 p-3 pt-md-0">
+                            <h2 class="titulo-h2 text-center text-md-start">Olivier Kuntzel</h2>
+                        </div>
+                        <div class="col-7 col-md-12 ps-md-3">
+                            <ul>
+                                <li><strong>Web </strong><a href="#">kuntzel.com</a></li>
+                                <li><strong>Productora </strong><a href="#">Add a Dog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-9 col-lg-6 col-xl-5 bg-azul-800 p-3 d-flex align-items-center">
+                        <p class="color-100 texto">Diseñador, artista e ilustrador en Paris, forma junto a Florence
+                            Deygas
+                            el estudio Kuntzel+Deygas. Creador de los titulos iniciales de Catch Me If You Can (2003),
+                            de
+                            una secuencia laternativa para The Pink Panther (2006) y de los créditos de Le Petit Nicolas
+                            (2009).</p>
+                    </div>
+                </section>
+
+                <section class="row g-0 justify-content-end">
+                    <figure class="col-3 col-sm-4 col-md-3 col-lg-2 order-sm-2">
+                        <img src="img/deygas.jpg">
+                    </figure>
+                    <div
+                        class="col-9 col-sm-8 col-md-6 col-lg-3 order-sm-1 bg-azul-100 d-flex flex-wrap align-items-center align-content-center ps-md-5 ps-lg-0 ps-xl-5">
+                        <div class="col-5 col-md-12 p-3 pt-md-0">
+                            <h2 class="titulo-h2 text-center text-md-start">Florence Deygas</h2>
+                        </div>
+                        <div class="col-7 col-md-12 ps-md-3">
+                            <ul>
+                                <li><strong>Web </strong><a href="#">kuntzel.com</a></li>
+                                <li><strong>Productora </strong><a href="#">Add a Dog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-9 col-lg-6 col-xl-5 order-sm-3 bg-azul-800 p-3 d-flex align-items-center">
+                        <p class="color-100 texto">Diseñadora de moda y animadora en Paris, ha colaborado con Vogue y
+                            otras grandes marcas de moda. Forma junto a Kuntzel el estudio Kuntzel+Deygas. Ha trabajado
+                            en campañas publicitarias para American Express, Guerlain y Renault.</p>
+                    </div>
+                </section>
+
+                <h2 class="titulo-h2-2">Lo tradicional como punto de referencia</h2>
+                <div class="linea"></div>
+                <section class="row">
+                    <figure class="col-12 col-md-6">
+                        <img src="img/credit.jpg">
+                    </figure>
+                    <div class="col-12 col-md-6">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Resumen
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Basada en la vida de Frank Abagnale Jr., quien antes de cumplir diecinueve años
+                                        de
+                                        edad consiguió millones de dólares haciéndose pasar por piloto de una empresa
+                                        aérea,
+                                        por médico y por abogado. Su principal modus operandi era la falsificación de
+                                        cheques, delito en el que logró tanta habilidad y experiencia que la FBI
+                                        finalmente
+                                        lo reclutó como asesor en ese tipo de fraudes.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Ficha títulos de crédito
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>PRODUCTORAS:</strong>
+
+                                        Nexus Productions
+                                        Add a Dog.
+
+                                        <strong>DIRECTORES:</strong>
+
+                                        Olivier Kuntzel
+                                        Florence Deygas.
+
+                                        <strong>ESTILO:</strong>
+                                        2000s, motion 2D, animación, gráfico, hecho a mano, retro.
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Ficha de la película
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>DIRECTOR:</strong>
+                                        Steven Spielberg
+                                        2002.
+
+                                        <strong>ESTUDIO:</strong>
+                                        Dreamworks.
+
+                                        <strong>PAIS:</strong>
+                                        EEUU.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        <!--------------------------------------- FOOTER ----------------------------------------------->
+    </div>
+        <footer class="mt-auto">
+        <div class="bg-dark p-3 mt-3">
+            <p class="class__pie">Bootstrap Footer</p>
+        </div>
+    </footer>
+
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

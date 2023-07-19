@@ -1,0 +1,44 @@
+img {max-width: 100%;}
+figure, p, h2 {margin: 0;}
+ul {list-style: none; padding: 0; margin: 0;}
+a {text-decoration: none; color: red;}
+figure > img {object-fit: cover; width: 100%; height: 100%;}
+
+:root {
+    --azul-100:#dee6ee;
+    --azul-800:#343a40;
+}
+
+.bg-azul-100 {
+    background-color: var(--azul-100);
+}
+
+.bg-azul-800 {
+    background-color: var(--azul-800);
+}
+
+/**************************************************************************/
+
+.texto {
+    color: white;
+    font-size: 15px;
+}
+
+.titulo-h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.titulo-h2-2 {
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.linea {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.class__pie {
+    color: white;
+}
